@@ -10,6 +10,7 @@ class Quiz extends Component {
 
     render(){
         return(
+                <div>Quiz</div>
                 <div className="QuizQuestions">{quizData.quiz_questions[0].instruction_text}</div>
             )
     }
